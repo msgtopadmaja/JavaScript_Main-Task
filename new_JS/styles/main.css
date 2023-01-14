@@ -1,0 +1,1163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Belleza";
+}
+
+.main-header {
+  padding: 28px 50px;
+}
+
+.desktop-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.desktop-header .navbar a,
+.desktop-header .navbar a:hover,
+.desktop-header.navbar a:active,
+.desktop-header.navbar a:visited {
+  text-decoration: none;
+  font-family: "Quicksand-Regular";
+  font-size: 16px;
+  color: #000000;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.desktop-header.navbar a:last-child {
+  margin-right: 0;
+}
+
+.desktop-header .icons i {
+  margin-right: 39px;
+}
+
+.desktop-header.icons i:last-child {
+  margin-right: 0;
+}
+
+.plant-overview {
+  width: 100%;
+  height: 624px;
+  background: url(../images/plant.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content {
+  width: 584px;
+  position: absolute;
+  top: 90px;
+  left: 37px;
+}
+
+.content h1 {
+  font-family: "Belleza";
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.primary-btn button {
+  background: black;
+  border-radius: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Belleza";
+  font-size: 20px;
+  padding: 14px 44px;
+  margin: 40px 0 80px 0;
+}
+
+.content h2 {
+  font-family: "Belleza";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 41px;
+}
+
+.content h5 {
+  font-family: "Belleza";
+  font-size: 16px;
+  font-weight: 250;
+}
+
+.two-brand {
+  margin-top: 65px;
+}
+
+.two-brand span {
+  font-family: "Belleza";
+  font-size: 36px;
+  font-weight: 900;
+  opacity: 0.5;
+  margin-right: 90px;
+}
+
+.plant-quotes {
+  display: flex;
+  margin: 82px 176px 0px 50px;
+}
+
+.plant-quotes-title {
+  width: 518px;
+}
+
+.plant-quotes-title p {
+  font-family: "system-ui";
+  font-size: 24px;
+  font-weight: 250;
+}
+
+.plant-quotes-subtitle {
+  width: 626px;
+}
+
+.plant-quotes .plant-quotes-subtitle p {
+  font-family: "Lora";
+  font-size: 36px;
+  font-weight: 500;
+}
+.learn-more {
+  margin-top: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 156px;
+}
+
+.learn-more a {
+  text-decoration: none;
+  font-family: "Belleza";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.slider-content-img img {
+  padding: 0 50px 0 50px;
+  width: 100%;
+}
+
+.slider-content-arrowing img:last-child {
+  margin-left: 18px;
+}
+
+.slider-content {
+  position: relative;
+}
+
+.slider-content-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 268px 55px 20px 51px;
+  align-items: center;
+  background: #ededed;
+  position: absolute;
+  bottom: -137px;
+  width: 100%;
+  z-index: -1;
+}
+
+.slider-content-items span {
+  font-family: "Belleza";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.slider-content-items p {
+  font-family: "Belleza";
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.fiveth-banner {
+  margin-top: 251px;
+}
+
+.shop-details {
+  padding: 0 0 0 50px;
+  margin-bottom: 52px;
+}
+
+.shop-details-title span {
+  font-family: "Belleza";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.shop-details-subtitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 37px;
+}
+
+.shop-details-text {
+  width: 526px;
+}
+
+.shop-details-text h2 {
+  font-family: "Lora";
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.shop-details-btn button {
+  background: black;
+  border-radius: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Belleza";
+  font-size: 14px;
+  padding: 10px 44px;
+  margin-top: 47px;
+}
+
+.banner-container {
+  padding: 0 0 0 50px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.gallery {
+  width: 368px;
+  margin-right: 44px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery-des {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-des h6 {
+  font-family: "Belleza";
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.review-banner {
+  margin-top: 164px;
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review-rate h6 {
+  font-family: "Belleza";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.review-des {
+  width: 302px;
+  margin-top: 26px;
+}
+
+.review-star {
+  margin: 14px 0 15px 0;
+}
+
+.review-star img {
+  width: 25px;
+  height: 25px;
+}
+
+.review-items {
+  margin-left: 143px;
+}
+.review-card {
+  width: 676px;
+  margin-bottom: 59px;
+}
+
+.review-card p {
+  font-family: "Lora";
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.review-person p {
+  font-family: "Lora";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.review-person p:last-child {
+  font-family: "Belleza";
+  font-size: 16px;
+  font-weight: 250;
+}
+
+.image-gallery {
+  display: flex;
+  width: 100%;
+  padding: 0 50px;
+  margin-top: 55px;
+  height: 774px;
+  gap: 60px;
+}
+
+.image-gallery-item-1 {
+  width: 35%;
+  height: 100%;
+}
+
+.image-gallery-item-2 {
+  width: 65%;
+  height: 100%;
+}
+
+.image-gallery-item-3 {
+  padding: 0 50px;
+  margin-top: 50px;
+  width: 100%;
+  height: 764px;
+}
+
+.image-gallery-item-3 img {
+  height: 100%;
+  width: 100%;
+}
+
+.plant-offers {
+  display: flex;
+  padding-left: 50px;
+  margin: 50px 0 67px 0;
+}
+
+.plant-offer-update p {
+  font-family: "Lora";
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.plant-offer-update {
+  width: 60%;
+  margin-right: 66px;
+}
+
+.subscribe-wrapper {
+  width: 420px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.subscribe-wrapper .input-data {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.subscribe-wrapper .input-data input:focus,
+.subscribe-wrapper .input-data input:focus-visible {
+  outline: none !important;
+}
+
+.subscribe-wrapper .input-data input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  border-bottom: 2px solid #000000;
+}
+
+.subscribe-wrapper .input-data label {
+  position: absolute;
+  bottom: 16px;
+  left: 0px;
+  color: grey;
+  pointer-events: none;
+}
+
+.button-subscribe {
+  background: black;
+  border-radius: 999px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Belleza";
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 28px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.desktop-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-footer {
+  padding: 60px 61px 63px 54px;
+  background: #f3f3f3;
+}
+
+.desktop-footer .navbar a,
+.desktop-footer .navbar a:hover,
+.desktop-footer.navbar a:active,
+.desktop-footer.navbar a:visited {
+  text-decoration: none;
+  font-family: "Quicksand-Regular";
+  font-size: 16px;
+  color: #000000;
+  margin-right: 59px;
+  cursor: pointer;
+}
+
+.desktop-footer.navbar a:last-child {
+  margin-right: 0;
+}
+
+.desktop-footer .icons i {
+  margin-right: 60px;
+  font-size: 24px;
+}
+
+.desktop-footer i:last-child {
+  margin-right: 0;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  right: 0;
+  background: white;
+  width: 50%;
+  height: 100vh;
+}
+
+.open {
+  display: flex !important;
+  justify-content: start !important;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .desktop-header {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-header {
+    padding: 23px 25px 14px 16px;
+  }
+
+  .mobile-header__brand {
+    width: 73px;
+    height: 21px;
+  }
+
+  .mobile-header__brand img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-header .icons i {
+    font-size: 11px;
+    margin-right: 42px;
+    flex: 1;
+    text-align: right;
+  }
+
+  .mobile-header .icons i:last-child {
+    margin-right: 0;
+  }
+
+  .primary-btn button {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-nav a,
+  .mobile-nav a:hover,
+  .mobile-nav a:active,
+  .mobile-nav a:visited {
+    text-decoration: none;
+    font-family: "Quicksand-Regular";
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .plant-overview {
+    height: 284px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content {
+    width: 140px;
+    position: absolute;
+    top: 30px;
+    left: 16px;
+  }
+  .content h1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .content h2 {
+    font-family: "Belleza";
+    font-size: 17px;
+    font-weight: 400;
+    margin: 35px 0 12px 0;
+  }
+
+  .content h5 {
+    font-family: "Belleza";
+    font-size: 9px;
+    font-weight: 250;
+  }
+
+  .primary-btn-mobile button {
+    display: inline-block;
+    background: black;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Belleza";
+    font-size: 10px;
+    padding: 7px 21px;
+    margin: 10px 0 23px 0;
+  }
+
+  .two-brand {
+    margin-top: 0;
+  }
+
+  .two-brand span {
+    font-size: 16px;
+    margin-right: 4px;
+  }
+
+  .plant-quotes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 26px 13px 0px 14px;
+  }
+
+  .plant-quotes-title {
+    width: 259px;
+    margin-left: 18px;
+  }
+
+  .plant-quotes-title p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .plant-quotes-subtitle {
+    width: 317px;
+  }
+
+  .plant-quotes .plant-quotes-subtitle p {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .learn-more {
+    margin-bottom: 12px;
+  }
+
+  .slider-content-img img {
+    padding: 0 16px 0 16px;
+    width: 100%;
+  }
+
+  .slider-content {
+    position: relative;
+  }
+
+  .slider-content-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 137px 18px 17px 18px;
+    align-items: center;
+    background: #ededed;
+    position: absolute;
+    bottom: -72px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .slider-content-arrowing img {
+    height: 15px;
+  }
+
+  .slider-content-items span {
+    font-size: 7px;
+  }
+
+  .slider-content-items p {
+    font-family: "Lora";
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .slider-content-arrowing img:last-child {
+    margin-left: 29px;
+  }
+
+  .fiveth-banner {
+    margin-top: 98px;
+  }
+
+  .shop-details {
+    padding: 0 0 0 16px;
+  }
+
+  .shop-details-title span {
+    font-size: 7px;
+  }
+
+  .shop-details-subtitle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+  }
+
+  .shop-details-text {
+    width: 219px;
+  }
+
+  .shop-details-text h2 {
+    font-size: 20px;
+  }
+
+  .shop-details-btn button {
+    background: black;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Belleza";
+    font-size: 14px;
+    padding: 7px 28px;
+    margin-left: 38px;
+    margin-top: 0;
+  }
+
+  .image-gallery {
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 55px;
+    height: 279px;
+    gap: 16px;
+  }
+
+  .image-gallery-item-1 {
+    width: 50%;
+  }
+
+  .image-gallery-item-1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-gallery-item-2 {
+    width: 50%;
+    height: 100%;
+  }
+
+  .image-gallery-item-2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-gallery-item-3 {
+    padding: 0 16px;
+    margin-top: 14px;
+    width: 100%;
+    height: 198px;
+  }
+
+  .image-gallery-item-3 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .plant-offers .subscribe-wrapper {
+    display: none;
+  }
+
+  .plant-offer-update p {
+    font-family: "Lora";
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .plant-offers {
+    display: flex;
+    padding-left: 41px;
+    margin-top: 27px;
+  }
+
+  .plant-offer-update {
+    width: 294px;
+  }
+
+  .main-footer {
+    padding: 23px 34px 43px 35px;
+    margin-top: 25px;
+  }
+
+  .mobile-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe-wrapper {
+    width: 315px;
+    background: #f3f3f3;
+    padding: 30px;
+  }
+
+  .subscribe-wrapper .input-data {
+    height: 40px;
+    width: 100%;
+    position: relative;
+  }
+
+  .subscribe-wrapper .input-data input:focus,
+  .subscribe-wrapper .input-data input:focus-visible {
+    outline: none !important;
+  }
+
+  .subscribe-wrapper .input-data input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    border-bottom: 2px solid #000000;
+  }
+
+  .subscribe-wrapper .input-data label {
+    position: absolute;
+    bottom: 16px;
+    left: 0px;
+    color: grey;
+    pointer-events: none;
+  }
+
+  .button-subscribe {
+    background: black;
+    border-radius: 999px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Belleza";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 19px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .banner-container {
+    padding: 0 0 0 16px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .gallery {
+    width: 223px;
+    margin-right: 16px;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
+
+  .gallery-des {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gallery-des h6 {
+    font-family: "Belleza";
+    font-size: 10px;
+    font-weight: 400px;
+  }
+
+  .review-banner {
+    margin-top: 36px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .review-rate h6 {
+    font-family: "Belleza";
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .review-des {
+    width: 133px;
+    margin-top: 21px;
+  }
+
+  .review-des p {
+    font-family: "Belleza";
+    font-size: 7px;
+    font-weight: 250px;
+  }
+
+  .review-star {
+    margin: 21px 0 10px 0;
+  }
+
+  .review-star img {
+    width: 13px;
+    height: 13px;
+  }
+
+  .review-items {
+    margin-left: 0;
+  }
+  .review-card {
+    width: 282px;
+    margin-top: 21px;
+    padding-left: 10px;
+  }
+
+  .review-card p {
+    font-family: "Lora";
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .review-person p {
+    font-family: "Lora";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 11px;
+    text-align: center;
+  }
+
+  .review-person p:last-child {
+    font-family: "Belleza";
+    font-size: 16px;
+    font-weight: 250;
+  }
+
+  .review-rate {
+    text-align: center;
+  }
+
+  .mobile-footer__brand {
+    margin-top: 38px;
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-footer .navbar a,
+  .mobile-footer .navbar a:hover,
+  .mobile-footer.navbar a:active,
+  .mobile-footer.navbar a:visited {
+    text-decoration: none;
+    font-family: "Quicksand-Regular";
+    font-size: 18px;
+    color: #000000;
+    margin-top: 45px;
+    cursor: pointer;
+  }
+
+  .mobile-footer.navbar a:first-child {
+    margin-top: 0;
+  }
+
+  .mobile-footer .icons i {
+    margin-right: 60px;
+  }
+
+  .mobile-footer i:last-child {
+    margin-right: 0;
+  }
+
+  .horizontal-line {
+    margin: 38px 0;
+  }
+
+  .mobile-footer .icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-footer .icons i {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .plant-overview {
+    height: 374px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content {
+    width: 270px;
+  }
+
+  .content h1 {
+    font-size: 39px;
+  }
+
+  .content h2 {
+    font-size: 23px;
+    margin: 35px 0 28px 0;
+  }
+
+  .content h5 {
+    font-size: 15px;
+  }
+
+  .primary-btn-mobile button {
+    margin: 18px 0 62px 0;
+  }
+
+  .two-brand span {
+    margin-right: 76px;
+  }
+
+  .plant-quotes-subtitle {
+    margin-left: 46px;
+  }
+
+  .shop-details-title span {
+    font-size: 13px;
+  }
+
+  .shop-details-subtitle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+  }
+
+  .shop-details-text {
+    width: 385px;
+  }
+
+  .shop-details-text h2 {
+    font-size: 26px;
+  }
+
+  .shop-details-btn button {
+    margin-top: 0;
+    margin-left: 198px;
+  }
+
+  .image-gallery-item-3 {
+    padding: 0px 50px;
+    margin-top: 3px;
+    width: 100%;
+    height: 451px;
+  }
+
+  .image-gallery-item-3 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .plant-offer-update p {
+    font-family: "Lora";
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  .plant-offers {
+    display: flex;
+    padding-left: 165px;
+    margin-top: 27px;
+  }
+
+  .plant-offer-update {
+    width: 397px;
+  }
+
+  .subscribe-wrapper {
+    width: 489px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .primary-btn-mobile {
+    display: none;
+  }
+
+  .plant-quotes-subtitle {
+    margin-left: 54px;
+  }
+
+  .image-gallery-item-1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-gallery-item-2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-gallery-item-3 {
+    padding: 0 50px;
+    margin-top: 50px;
+    width: 100%;
+    height: 518px;
+  }
+
+  .subscribe-wrapper {
+    width: 345px;
+  }
+
+  .plant-offer-update {
+    margin-right: 18px;
+  }
+
+  .review-banner {
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+  }
+
+  .review-items {
+    margin-left: 65px;
+  }
+
+  .review-card {
+    margin-top: 59px;
+  }
+
+  .review-card p {
+    font-size: 22px;
+  }
+
+  .review-person p {
+    text-align: center;
+  }
+
+  .review-person {
+    padding-right: 82px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .primary-btn-mobile {
+    display: none;
+  }
+
+  .content h1 {
+    font-size: 74px;
+  }
+
+  .plant-overview {
+    height: 688px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content h2 {
+    font-size: 30px;
+  }
+
+  .content h5 {
+    font-size: 24px;
+  }
+
+  .two-brand {
+    margin-top: 126px;
+  }
+
+  .image-gallery-item-1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-gallery-item-2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}

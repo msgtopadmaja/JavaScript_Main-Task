@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Belleza";
+  src: url("../fonts/Belleza-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand-Semibold";
+  src: url("../fonts/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lora-Medium";
+  src: url("../fonts/Lora-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Lora-Bold";
+  src: url("../fonts/Lora-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lora-SemiBold";
+  src: url("../fonts/Lora-SemiBold.ttf");
+}
